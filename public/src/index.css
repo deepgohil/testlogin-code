@@ -51,8 +51,8 @@ button {
   color: white;
   border: none;
   padding: 0.5rem;
-  font-size: 1rem;
-  text-transform: uppercase;
+  
+  font-family : "Poppins";
   cursor: pointer;
   border-radius: 0.3rem;
 }
@@ -65,7 +65,7 @@ span a {
 .private {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(80, 98, 255);
+  background-color: #20262E;
   color: white;
   display: flex;
   justify-content: center;
@@ -76,9 +76,3 @@ span a {
   gap: 1rem;
 }
 
-.private button {
-  background-color: black;
-  padding: 2rem 10rem;
-  font-size: 4rem;
-  border-radius: 2rem;
-}
