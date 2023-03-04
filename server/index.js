@@ -15,7 +15,7 @@ app.listen(4000, (err) => {
 });
 
 mongoose
-  .connect("mongodb://localhost:27017/jwt", {
+  .connect("mongodb+srv://admin:root@cluster0.pohm9.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
